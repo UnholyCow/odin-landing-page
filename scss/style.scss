@@ -77,11 +77,32 @@ button {
 	}
 }
 
+.constraint {
+	display: flex;
+	justify-content: space-around;
+	padding: 40px 0;
+	gap: 50px;
+	max-width: 70%;
+}
+
+.left-block,
+.right-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-block {
+	align-items: start;
+	flex-direction: column;
+	gap: 15px;
+}
+
 .placeholder {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 150px;
+	height: 200px;
 	width: 450px;
 	background-color: #6D747D;
 	color: #f9faf8;
